@@ -127,7 +127,6 @@ int main()
             // generate b with random value
             srand(time(0));
             b = rand() % 26;
-            b = 3;
 
             // start encrypting
             string plaintext, ciphertext;
