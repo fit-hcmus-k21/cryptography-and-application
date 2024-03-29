@@ -1,0 +1,3 @@
+## Yêu cầu:
+1. File pdf báo cáo chi tiết: trình bày tất cả kỹ thuật, logic, sơ đồ... làm theo template tùy ý
+2. File pptx chứa slide tóm tắt trình bày + mã nguồn đồ án/ video demo
