@@ -334,10 +334,17 @@ int main()
     unsigned char key[] = "Thats my Kung Fu";
     unsigned char iv[] = "encryptionIntVec";
 
+    // unsigned char message[] = "Two One Nine Two Ma Hoa Ung Dung";
+    // unsigned char *message_encrypt = NULL;
+    // unsigned char key[] = "Thats my friends";
+    // unsigned char iv[] = "decryptionIVhihi";
+
+    cout << "Message: " << message << endl;
+
     // print string message hex number
     message_encrypt = CBCRandomEnc(message, key, iv);
     cout << "\nCiphertext: \n";
-    for (int i = 0; i < strlen( (char*)message_encrypt); i++)
+    for (int i = 0; i < strlen( (char*)message); i++)
     {
         if (i % 16 == 0)
         {
